@@ -13,6 +13,7 @@ import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
+import Newsletter from "@/components/Newsletter.astro";
 import { SITE } from "@/config";
 
 type Props = {
@@ -125,6 +126,8 @@ const nextPost =
     <BackToTopButton />
 
     <ShareLinks />
+
+    <Newsletter />
 
     <hr class="my-6 border-dashed" />
 
