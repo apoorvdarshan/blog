@@ -8,6 +8,17 @@ import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
+import IconYoutube from "@/assets/icons/IconYoutube.svg";
+import IconInstagram from "@/assets/icons/IconInstagram.svg";
+import IconTwitch from "@/assets/icons/IconTwitch.svg";
+import IconProductHunt from "@/assets/icons/IconProductHunt.svg";
+import IconCredly from "@/assets/icons/IconCredly.svg";
+import IconPeerlist from "@/assets/icons/IconPeerlist.svg";
+import IconMedium from "@/assets/icons/IconMedium.svg";
+import IconHackerNoon from "@/assets/icons/IconHackerNoon.svg";
+import IconHashnode from "@/assets/icons/IconHashnode.svg";
+import IconDevTo from "@/assets/icons/IconDevTo.svg";
+import IconCalDotCom from "@/assets/icons/IconCalendar2.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -41,6 +52,72 @@ export const SOCIALS: Social[] = [
     href: "https://bsky.app/profile/apoorvdarshan.com",
     linkTitle: `${SITE.title} on Bluesky`,
     icon: IconBluesky,
+  },
+  {
+    name: "YouTube",
+    href: "https://youtube.com/@apoorvdarshan",
+    linkTitle: `${SITE.title} on YouTube`,
+    icon: IconYoutube,
+  },
+  {
+    name: "Instagram",
+    href: "https://instagram.com/apoorvdarshan",
+    linkTitle: `${SITE.title} on Instagram`,
+    icon: IconInstagram,
+  },
+  {
+    name: "Twitch",
+    href: "https://twitch.tv/apoorvdarshan",
+    linkTitle: `${SITE.title} on Twitch`,
+    icon: IconTwitch,
+  },
+  {
+    name: "Product Hunt",
+    href: "https://producthunt.com/@apoorvdarshan",
+    linkTitle: `${SITE.title} on Product Hunt`,
+    icon: IconProductHunt,
+  },
+  {
+    name: "Credly",
+    href: "https://credly.com/users/apoorvdarshan",
+    linkTitle: `${SITE.title} on Credly`,
+    icon: IconCredly,
+  },
+  {
+    name: "Peerlist",
+    href: "https://peerlist.io/apoorvdarshan",
+    linkTitle: `${SITE.title} on Peerlist`,
+    icon: IconPeerlist,
+  },
+  {
+    name: "Medium",
+    href: "https://medium.com/@apoorvdarshan",
+    linkTitle: `${SITE.title} on Medium`,
+    icon: IconMedium,
+  },
+  {
+    name: "HackerNoon",
+    href: "https://hackernoon.com/u/apoorvdarshan",
+    linkTitle: `${SITE.title} on HackerNoon`,
+    icon: IconHackerNoon,
+  },
+  {
+    name: "Hashnode",
+    href: "https://hashnode.com/@apoorvdarshan",
+    linkTitle: `${SITE.title} on Hashnode`,
+    icon: IconHashnode,
+  },
+  {
+    name: "Dev.to",
+    href: "https://dev.to/apoorvdarshan",
+    linkTitle: `${SITE.title} on Dev.to`,
+    icon: IconDevTo,
+  },
+  {
+    name: "Cal.com",
+    href: "https://cal.com/apoorvdarshan",
+    linkTitle: `Book a call with ${SITE.title}`,
+    icon: IconCalDotCom,
   },
   {
     name: "Mail",
