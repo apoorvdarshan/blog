@@ -7,6 +7,7 @@ import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
+import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -61,6 +62,18 @@ export const SHARE_LINKS: Social[] = [
     href: "https://x.com/intent/post?url=",
     linkTitle: `Share this post on X`,
     icon: IconBrandX,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/sharing/share-offsite/?url=",
+    linkTitle: `Share this post on LinkedIn`,
+    icon: IconLinkedin,
+  },
+  {
+    name: "Bluesky",
+    href: "https://bsky.app/intent/compose?text=",
+    linkTitle: `Share this post on Bluesky`,
+    icon: IconBluesky,
   },
   {
     name: "Telegram",
