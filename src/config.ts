@@ -1,10 +1,10 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://apoorvdarshan.com/",
+  author: "Apoorv Darshan",
+  profile: "https://apoorvdarshan.com/",
+  desc: "Thoughts on technology, science, and curiosity from Apoorv Darshan.",
   title: "Apoorv Darshan",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og-apoorv.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/apoorvdarshan/blog/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
