@@ -8,8 +8,6 @@ import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
-import IconYoutube from "@/assets/icons/IconYoutube.svg";
-import IconInstagram from "@/assets/icons/IconInstagram.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -37,24 +35,6 @@ export const SOCIALS: Social[] = [
     href: "https://www.linkedin.com/in/apoorvdarshan/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
-  },
-  {
-    name: "Bluesky",
-    href: "https://bsky.app/profile/apoorvdarshan.com",
-    linkTitle: `${SITE.title} on Bluesky`,
-    icon: IconBluesky,
-  },
-  {
-    name: "YouTube",
-    href: "https://youtube.com/@apoorvdarshan",
-    linkTitle: `${SITE.title} on YouTube`,
-    icon: IconYoutube,
-  },
-  {
-    name: "Instagram",
-    href: "https://instagram.com/apoorvdarshan",
-    linkTitle: `${SITE.title} on Instagram`,
-    icon: IconInstagram,
   },
 {
     name: "Mail",
