@@ -54,7 +54,44 @@ import profileImg from "@/assets/images/coolpfp.jpg";
       <p class="mt-4 text-base leading-relaxed">
         I build what excites me and put it out there.
       </p>
-      <p class="mt-4 text-base leading-relaxed">
+      <h2 class="mt-16 text-xl font-bold tracking-wider sm:text-2xl">
+        Stay Connected
+      </h2>
+      <div class="mt-4 rounded-lg border border-border p-6">
+        <p class="text-base leading-relaxed">
+          New posts, interesting finds, and nerdy links straight to your inbox.
+        </p>
+        <form
+          action="https://buttondown.com/api/emails/embed-subscribe/apoorv"
+          method="post"
+          class="mt-4 flex flex-col gap-3 sm:flex-row"
+        >
+          <input
+            type="text"
+            name="metadata__name"
+            placeholder="Your Name"
+            class="flex-1 rounded border border-border bg-transparent px-4 py-2 text-foreground placeholder:text-muted-foreground"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            class="flex-1 rounded border border-border bg-transparent px-4 py-2 text-foreground placeholder:text-muted-foreground"
+          />
+          <button
+            type="submit"
+            class="rounded bg-accent px-6 py-2 font-semibold text-white transition-colors hover:opacity-90"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p class="mt-3 text-sm text-muted-foreground">
+          No spam, pure signal, zero fluff.
+        </p>
+      </div>
+
+      <p class="mt-8 text-base leading-relaxed">
         If you'd like to connect or have questions, feel free to reach out
         through any of the links below.
       </p>
