@@ -10,7 +10,6 @@ import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import IconYoutube from "@/assets/icons/IconYoutube.svg";
 import IconInstagram from "@/assets/icons/IconInstagram.svg";
-import IconProductHunt from "@/assets/icons/IconProductHunt.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -57,13 +56,7 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on Instagram`,
     icon: IconInstagram,
   },
-  {
-    name: "Product Hunt",
-    href: "https://producthunt.com/@apoorvdarshan",
-    linkTitle: `${SITE.title} on Product Hunt`,
-    icon: IconProductHunt,
-  },
-  {
+{
     name: "Mail",
     href: "mailto:mail@apoorvdarshan.com",
     linkTitle: `Send an email to ${SITE.title}`,
