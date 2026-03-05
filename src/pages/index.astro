@@ -25,7 +25,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <div class="flex items-center gap-6">
+      <div class="flex flex-col items-center gap-6 sm:flex-row sm:items-center">
         <Image
           src={profileImg}
           alt="Apoorv Darshan"
