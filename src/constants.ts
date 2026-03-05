@@ -37,6 +37,12 @@ export const SOCIALS: Social[] = [
     icon: IconLinkedin,
   },
   {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/apoorvdarshan.com",
+    linkTitle: `${SITE.title} on Bluesky`,
+    icon: IconBluesky,
+  },
+  {
     name: "Mail",
     href: "mailto:mail@apoorvdarshan.com",
     linkTitle: `Send an email to ${SITE.title}`,
