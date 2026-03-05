@@ -1,0 +1,67 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Layout from "@/layouts/Layout.astro";
+import Socials from "@/components/Socials.astro";
+import { SITE } from "@/config";
+import { Image } from "astro:assets";
+import profileImg from "@/assets/images/coolpfp.jpg";
+---
+
+<Layout title={`About | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout">
+    <section id="about" class="mb-28">
+      <h1 class="text-2xl font-bold tracking-wider sm:text-3xl">About</h1>
+
+      <div class="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start">
+        <Image
+          src={profileImg}
+          alt="Apoorv Darshan"
+          width={320}
+          height={320}
+          quality={90}
+          class="w-full max-w-[280px] rounded-lg object-cover sm:w-64"
+        />
+        <div class="text-base leading-relaxed">
+          <p>
+            Curious about how things work. I like building software, reading
+            about science, and writing when something sticks.
+          </p>
+          <p class="mt-4">
+            Currently exploring web tech and tinkering with ideas that feel
+            worth sharing.
+          </p>
+          <p class="mt-4">
+            This blog is where I think out loud. No schedule, no pressure.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="mt-16 text-xl font-bold tracking-wider sm:text-2xl">
+        GitHub Activity
+      </h2>
+      <div class="mt-4 overflow-x-auto">
+        <img
+          src="https://github-contribution-merger.vercel.app/api/merge?users=apoorvdarshan%2Capoorvxircls&mode=overlay&colors=39d353%2C58a6ff"
+          alt="GitHub contribution graph"
+          class="w-full max-w-[750px]"
+          loading="lazy"
+        />
+      </div>
+      <p class="mt-4 text-base leading-relaxed">
+        I build what excites me and put it out there.
+      </p>
+      <p class="mt-4 text-base leading-relaxed">
+        If you'd like to connect or have questions, feel free to reach out
+        through any of the links below.
+      </p>
+      <div class="mt-6">
+        <Socials />
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
