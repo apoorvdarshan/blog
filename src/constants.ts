@@ -8,6 +8,7 @@ import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
+import IconMastodon from "@/assets/icons/IconMastodon.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -36,7 +37,19 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
-{
+  {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/apoorvdarshan.com",
+    linkTitle: `${SITE.title} on Bluesky`,
+    icon: IconBluesky,
+  },
+  {
+    name: "Mastodon",
+    href: "https://mastodon.social/@apoorvdarshan",
+    linkTitle: `${SITE.title} on Mastodon`,
+    icon: IconMastodon,
+  },
+  {
     name: "Mail",
     href: "mailto:mail@apoorvdarshan.com",
     linkTitle: `Send an email to ${SITE.title}`,
