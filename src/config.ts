@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://apoorvdarshan.com/",
   author: "Apoorv Darshan",
   profile: "https://apoorvdarshan.com/",
-  desc: "Apoorv Darshan's blog on software engineering, web development, science, and technology. Articles on JavaScript, React, Astro, open source, and building things that matter.",
+  desc: "Thoughts on technology, science, and curiosity from Apoorv Darshan.",
   title: "Apoorv Darshan",
   ogImage: "og-apoorv.png",
   lightAndDarkMode: true,
