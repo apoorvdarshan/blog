@@ -12,6 +12,7 @@ tags:
   - AI Safety
   - Technology
 description: Anthropic shipped the most powerful model the public has ever touched. Then developers turned on it. Then the government turned it off.
+ogImage: "../../assets/images/fable-5-og.jpg"
 ---
 
 *Anthropic shipped the most powerful model the public has ever touched. Then developers turned on it. Then the government turned it off.*

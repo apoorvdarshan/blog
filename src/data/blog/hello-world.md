@@ -8,6 +8,7 @@ draft: false
 tags:
   - blog
 description: The beginning of something new.
+ogImage: "../../assets/images/hello-world-og.jpg"
 ---
 
 I'm Apoorv. This is my blog now.
