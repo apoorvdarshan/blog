@@ -215,6 +215,34 @@ const structuredData = isPost ? blogPostSchema : websiteSchema;
     <!-- Load full theme logic -->
     <script src="../scripts/theme.ts"></script>
 
+    <!-- Render X (Twitter) embeds, view-transition safe -->
+    <script is:inline>
+      function renderTweets() {
+        const tweets = document.querySelectorAll(".twitter-tweet");
+        if (!tweets.length) return;
+
+        // Match embeds to the current site theme
+        const theme =
+          document.firstElementChild?.getAttribute("data-theme") === "dark"
+            ? "dark"
+            : "light";
+        tweets.forEach(el => el.setAttribute("data-theme", theme));
+
+        if (window.twttr?.widgets) {
+          window.twttr.widgets.load();
+          return;
+        }
+        if (!document.getElementById("twitter-wjs")) {
+          const s = document.createElement("script");
+          s.id = "twitter-wjs";
+          s.src = "https://platform.twitter.com/widgets.js";
+          s.async = true;
+          document.body.appendChild(s);
+        }
+      }
+      document.addEventListener("astro:page-load", renderTweets);
+    </script>
+
     <Analytics />
   </body>
 </html>
