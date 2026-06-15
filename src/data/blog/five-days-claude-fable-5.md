@@ -83,7 +83,7 @@ Anthropic can't sort foreign users from American ones in real time, so it pulled
 
 It complied and pushed back at once. The supposed jailbreak, it said, surfaced only minor known flaws that other public models can find with no bypass at all. The "exploit" boiled down to asking the model to read a codebase and fix its flaws, a thing security engineers do daily.
 
-> "We believe this is a misunderstanding and are working to restore access as soon as possible." (Anthropic)
+![Anthropic's statement: "We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible."](../../assets/images/fable-5-anthropic-statement.png)
 
 This is, as far as anyone can tell, the first time a U.S. administration has aimed an export-control tool, the kind built for chips and weapons, at a language model already used by hundreds of millions of people.
 
