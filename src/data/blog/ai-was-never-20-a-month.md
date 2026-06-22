@@ -12,6 +12,7 @@ tags:
   - Technology
   - Productivity
 description: For three years that price felt real. This spring the real bill arrived, and the industry quietly admitted the cheap years were a subsidy nobody told the customer about.
+ogImage: "../../assets/images/ai-month-og.jpg"
 ---
 
 *For three years that price felt real. This spring the real bill arrived, and the industry quietly admitted the cheap years were a subsidy nobody told the customer about.*
