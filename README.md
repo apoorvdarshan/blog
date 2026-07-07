@@ -1,9 +1,5 @@
-# apoorvdarshan.com
+# Archived
 
-My personal blog, built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+This repository is archived and no longer in use.
 
-Based on the [AstroPaper](https://github.com/satnaing/astro-paper) theme.
-
-## License
-
-Licensed under the MIT License, Copyright 2025
+The blog now lives on Medium. [apoorvdarshan.com](https://apoorvdarshan.com) is a custom domain for my Medium profile, where all new articles are published.
